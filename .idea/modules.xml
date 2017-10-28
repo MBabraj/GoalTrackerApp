@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GoalTrackerApp-master.iml" filepath="$PROJECT_DIR$/GoalTrackerApp-master.iml" />
+      <module fileurl="file://C:\Users\Misia\AndroidStudioProjects\GoalTrackerApp-master\GoalTracker.iml" filepath="C:\Users\Misia\AndroidStudioProjects\GoalTrackerApp-master\GoalTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoalTrackerApp.iml" filepath="$PROJECT_DIR$/GoalTrackerApp.iml" />
+      <module fileurl="file://C:\Users\Misia\AndroidStudioProjects\GoalTrackerApp-master\GoalTrackerApp.iml" filepath="C:\Users\Misia\AndroidStudioProjects\GoalTrackerApp-master\GoalTrackerApp.iml" />
+      <module fileurl="file://D:\Workspace\GoalTrackerApp\GoalTrackerApp-master.iml" filepath="D:\Workspace\GoalTrackerApp\GoalTrackerApp-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Workspace\GoalTrackerApp\app\app.iml" filepath="D:\Workspace\GoalTrackerApp\app\app.iml" />
     </modules>
   </component>
 </project>

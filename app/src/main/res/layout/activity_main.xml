@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.misia.goaltracker.MainActivity">
 
+    <Button
+        android:id="@+id/id_przycisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przycisk" />
+
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
