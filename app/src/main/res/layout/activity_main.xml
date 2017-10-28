@@ -6,10 +6,74 @@
     android:layout_height="match_parent"
     tools:context="com.example.misia.goaltracker.MainActivity">
 
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="203dp">
+
+            <TableRow
+                android:id="@+id/rowFirst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+                <TextView
+                    android:id="@+id/tv_col2"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/white"
+                    android:text="Col2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowSecond"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+            <TextView
+                android:id="@+id/tv_col2"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_margin="1dp"
+                android:background="@android:color/white"
+                android:text="Col2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowThird"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+                <TextView
+                    android:id="@+id/tv_col2"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/white"
+                    android:text="Col2" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
-        android:text="CZY TO DZIALA4"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
