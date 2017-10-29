@@ -14,9 +14,9 @@
         android:inputType="textPersonName"
         android:text="WprowadzTekst"
         android:textColor="@android:color/holo_red_dark"
-        android:textColorHighlight="@android:color/holo_blue_bright"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="85dp" />
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="234dp" />
 
     <Button
         android:id="@+id/id_przycisk"
@@ -28,7 +28,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@android:color/black">
+        android:background="@android:color/white">
 
         <TableLayout
             android:layout_width="match_parent"
